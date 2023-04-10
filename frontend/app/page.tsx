@@ -1,28 +1,13 @@
-"use client";
-import "../styles/globals.css";
-import { Navbar } from "@/components/Navbar";
-import { ThemeProvider } from "next-themes";
-import { Footer } from "@/components/Footer";
+import { AboutSection } from "@/components/AboutSection";
+import { HeroSection } from "@/components/HeroSection";
+import { ProjectSection } from "@/components/ProjectSection";
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function Home() {
   return (
-    <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
-      <body className="dark:bg-stone-900">
-        <ThemeProvider enableSystem={true} attribute="class">
-          <Navbar />
-          {children}
-          <Footer />
-        </ThemeProvider>
-      </body>
-    </html>
+    <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
+      <HeroSection />
+      <AboutSection />
+      <ProjectSection />
+    </main>
   );
 }
