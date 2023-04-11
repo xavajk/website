@@ -30,8 +30,8 @@ const AboutSection = () => {
               Hi, my name is Xavier and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Santa Clara, CA.
+              <span className="font-bold">{" driven"}</span> software
+              engineering student based in Santa Clara, CA.
             </p>
             <br />
             <p>
@@ -41,20 +41,20 @@ const AboutSection = () => {
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From learning languages, playing sports, to eating new foods I am
-              always seeking out new experiences and love to keep myself engaged
-              and learn new things.
+              From learning languages, to playing sports, to memorizing the
+              lyrics of my favorite songs, I am always seeking new experiences
+              and love to keep myself engaged and learning new things.
             </p>
             <br />
             <p>
-              I believe that you should{" "}
+              I believe you should{" "}
               <span className="font-bold text-purple-600 dark:text-purple-400">
-                never stop growing
+                never stop growing,
               </span>{" "}
-              and that&apos;s what I strive to do. I have a passion for
-              technology and a desire to push the limits of what&apos;s
-              possible. I&apos;m excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              which is what I strive to do. I have a passion for technology and
+              a desire to push the limits of what&apos;s possible. I&apos;m
+              excited to see where my career takes me and am always open to new
+              opportunities. 🙂
             </p>
           </div>
           <div className="text-center display:inline-block md:w-1/2 md:text-left">
