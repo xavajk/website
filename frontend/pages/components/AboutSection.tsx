@@ -73,8 +73,8 @@ const AboutSection = () => {
             </div>
             <Image
               className="hidden md:block md:relative md:bottom-4 md:top-8 md:left-20 md:z-0 rounded-full"
-              src="/xavier-hi-2.png"
-              alt="xavier wave"
+              src="/xavier-skills.png"
+              alt="xavier skills"
               width={250}
               height={250}
             />
