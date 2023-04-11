@@ -29,8 +29,8 @@ const Navbar = () => {
   const currentTheme = theme === "system" ? systemTheme : theme;
   const [navbar, setNavbar] = useState(false);
 
-  if (theme === "dark") {
-    setTheme(theme);
+  if (!theme) {
+    setTheme("system");
   }
 
   return (
