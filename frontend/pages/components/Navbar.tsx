@@ -79,6 +79,13 @@ const Navbar = () => {
                     </Link>
                   );
                 })}
+                <a
+                  className="block lg:inline-block text-neutral-900 hover:text-neutral-500 dark:text-neutral-100 dark:hover:text-neutral-600"
+                  href="/xavier-resume.pdf"
+                  target="_blank"
+                >
+                  Resume
+                </a>
                 {currentTheme === "dark" ? (
                   <button
                     onClick={() => setTheme("light")}
