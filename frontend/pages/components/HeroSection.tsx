@@ -7,10 +7,10 @@ import { HiArrowDown } from "react-icons/hi";
 const HeroSection = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center mt-10 -mb-20 md:flex-row md:text-align-left md:py-52 sm:py-32">
-        <div className="md:mt-2 md:w-1/2">
+      <div className="pb-48 flex flex-col text-center items-center justify-center mt-10 -mb-20 md:flex-row md:text-align-left md:py-52 sm:py-32">
+        <div className="mt-8 md:mt-2 md:w-1/2">
           <Image
-            className="rounded-full shadow-2xl"
+            className="rounded-full shadow-2xl scale-75 md:scale-100"
             src="/xavier-hi-1.png"
             alt="headshot"
             width={350}
@@ -41,7 +41,7 @@ const HeroSection = () => {
           </Link>
         </div>
       </div>
-      <div className="flex flex-row justify-center">
+      <div className="flex flex-row justify-center pb-40">
         <Link
           to="about"
           activeClass="active"
