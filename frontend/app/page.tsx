@@ -1,6 +1,6 @@
-import { AboutSection } from "@/pages/components/AboutSection";
-import { HeroSection } from "@/pages/components/HeroSection";
-import { ProjectSection } from "@/pages/components/ProjectSection";
+import AboutSection from "@/pages/components/AboutSection";
+import HeroSection from "@/pages/components/HeroSection";
+import ProjectSection from "@/pages/components/ProjectSection";
 
 export default function Home() {
   return (

@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Link } from "react-scroll/modules";
 import { HiArrowDown } from "react-icons/hi";
 
-export const HeroSection = () => {
+const HeroSection = () => {
   return (
     <section id="home">
       <div className="flex flex-col text-center items-center justify-center mt-10 -mb-20 md:flex-row md:text-align-left md:py-52 sm:py-32">
@@ -56,3 +56,5 @@ export const HeroSection = () => {
     </section>
   );
 };
+
+export default HeroSection;

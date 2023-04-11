@@ -12,7 +12,7 @@ const skills = [
   { skill: "Git" },
 ];
 
-export const AboutSection = () => {
+const AboutSection = () => {
   return (
     <section id="about">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
@@ -84,3 +84,5 @@ export const AboutSection = () => {
     </section>
   );
 };
+
+export default AboutSection;
