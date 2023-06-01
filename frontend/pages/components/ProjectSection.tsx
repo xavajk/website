@@ -6,23 +6,18 @@ import SlideUp from "./SlideUp";
 
 const projects = [
   {
-    name: "Project 1",
-    description: "Project 1 description.",
-    image: "/about01.png",
+    name: "Microgrid Intelligent Agents",
+    description:
+      "Developing a software implementation for autonomous agents in a microgrid environment which regulate power generation and consumption.",
+    image: "/istockphoto-1326626504-612x612.jpeg",
     github: "",
     link: "",
   },
   {
-    name: "Project 2",
-    description: "Project 1 description.",
-    image: "/about02.png",
-    github: "",
-    link: "",
-  },
-  {
-    name: "Project 3",
-    description: "Project 1 description.",
-    image: "/about04.png",
+    name: "Course Registration Bot",
+    description:
+      "Using Python and Selenium, this bot was made to automate the course registration process given only login credentials and a CSV file of course numbers.",
+    image: "/pbot.jpeg",
     github: "",
     link: "",
   },
