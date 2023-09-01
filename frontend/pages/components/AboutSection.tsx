@@ -5,10 +5,14 @@ const skills = [
   { skill: "Python" },
   { skill: "C" },
   { skill: "C++" },
-  { skill: "React" },
-  { skill: "Node.js" },
+  { skill: "TensorFlow" },
+  { skill: "Deep Learning" },
+  { skill: "Computer Vision" },
+  { skill: "Sequence Models" },
+  { skill: "NLP" },
+  { skill: "Arduino" },
   { skill: "MongoDB" },
-  { skill: "PostgreSQL" },
+  { skill: "Node.js" },
   { skill: "Git" },
 ];
 
@@ -35,15 +39,22 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I am currently a Junior at Santa Clara University, working towards
-              a BS in Computer Science and Engineering.
+              I am currently a Senior at Santa Clara University, working towards
+              a BS in
+              <span className="font-bold">
+                {" Computer Science and Engineering"}
+              </span>
+              . Additionally, I am enrolled in the
+              <span className="font-bold">{" Robotics and Automation "}</span>
+              Masters program which I am set to complete by Summer 2025.
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From learning languages, to playing sports, to memorizing the
-              lyrics of my favorite songs, I am always seeking new experiences
-              and love to keep myself engaged and learning new things.
+              From learning languages, to watching videos on space and science,
+              to memorizing the lyrics of my favorite songs, I am always seeking
+              new experiences and love to keep myself engaged and learning new
+              things.
             </p>
             <br />
             <p>

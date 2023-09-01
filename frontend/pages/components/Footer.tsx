@@ -11,13 +11,17 @@ const Footer = () => {
           © 2023 Xavier Kuehn
         </div>
         <div className="flex flex-row items-center justify-center space-x-4 mb-1">
-          <a href="" rel="" target="_blank">
+          <a href="https://github.com/xavajk" rel="noreferrer" target="_blank">
             <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer"
               size={30}
             />
           </a>
-          <a href="" rel="" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/xavierkuehn/"
+            rel="noreferrer"
+            target="_blank"
+          >
             <AiOutlineLinkedin
               className="hover:-translate-y-1 transition-transform cursor-pointer"
               size={30}
