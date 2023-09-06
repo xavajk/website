@@ -25,8 +25,8 @@ const projects = [
       Research is also being conducted on microgrid systems themselves, PV cells, wind, battery, generators, and loads, in order to \
       better understand how agents can achieve autonomous operation.",
     image: "/solar-energy-plant-5097002-4268357.png",
-    github: "",
-    link: "",
+    github: "https://github.com/xavajk/microgrid-agents",
+    link: "https://github.com/xavajk/microgrid-agents",
   },
   {
     name: "Deep Learning Specialization",
