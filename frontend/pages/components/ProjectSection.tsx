@@ -29,6 +29,15 @@ const projects = [
     link: "https://github.com/xavajk/microgrid-agents",
   },
   {
+    name: "PDF Chatter",
+    description:
+      "This project is centered around a PDF chatbot that can answer questions related to user-uploaded PDF documents. The app uses \
+       only Python for the GUI (Streamlit) and LangChain for the LLM interactions and embeddings.",
+    image: "/online-file-sharing-8086773-6514076.webp",
+    github: "https://github.com/xavajk/lesson-saver",
+    link: "https://github.com/xavajk/lesson-saver",
+  },
+  {
     name: "Deep Learning Specialization",
     description:
       "Built and trained deep neural networks, identifying key architecture parameters, implemented vectorized neural networks and \
