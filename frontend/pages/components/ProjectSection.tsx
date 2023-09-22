@@ -29,6 +29,15 @@ const projects = [
     link: "https://github.com/xavajk/microgrid-agents",
   },
   {
+    name: "SpeakNotes",
+    description:
+      "This repository is a Python program that uses gTTS (Google Text-to-Speech) and the SpeechRecognition library to quickly and \
+      effectively create, read, update, and delete tasks consolitdated within your Notion workspace.",
+    image: "/notes-7141019-5792239.png",
+    github: "https://github.com/xavajk/speak-notes",
+    link: "https://github.com/xavajk/speak-notes",
+  },
+  {
     name: "PDF Chatter",
     description:
       "This project is centered around a PDF chatbot that can answer questions related to user-uploaded PDF documents. The app uses \
