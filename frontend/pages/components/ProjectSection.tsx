@@ -14,7 +14,7 @@ const projects = [
       further my experience with NLP tasks and Deep Learning practices.",
     image:
       "/scientist-working-on-neural-network-brain-programming-4254680-3535107.png",
-    github: "",
+    github: "https://github.com/xavajk/ner",
     link: "https://eval.ai/web/challenges/challenge-page/2014/overview",
   },
   {

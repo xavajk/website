@@ -81,7 +81,7 @@ const Navbar = () => {
                 })}
                 <a
                   className="block lg:inline-block text-neutral-900 hover:text-neutral-500 dark:text-neutral-100 dark:hover:text-neutral-600"
-                  href="/resume-8-31-23.pdf"
+                  href="/xavier-resume.pdf"
                   target="_blank"
                 >
                   Resume
