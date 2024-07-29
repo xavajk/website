@@ -6,27 +6,27 @@ import SlideUp from "./SlideUp";
 
 const projects = [
   {
-    name: "Named Entity Recognition: eBay ML Competition",
+    name: "Homework Annotator: Multimodal ML Pipeline",
     description:
-      "Use DL principles including: Convolutional Neural Networks for generating character-level representations, \
-      Recurrent Neural Networks (Bi-directional LSTMs) to extract context from words, and Conditional Random Fields to assign words \
-      to explicit tags (named entities). This project is intended for the eBay 2023 Machine Learning Competition and is meant to \
-      further my experience with NLP tasks and Deep Learning practices.",
+      "A multi-modal image captioning model that take’s in a user’s input image and returns an appropriate caption. Uses transfer \
+      learning to incorporate  EfficientNet CNN to encode images and transformer encoder-decoder to encode and generate captions. \
+      Image captioning model pre-trained on Flickr30k dataset and fine-tuned on images of written work using Google Colab hardware acceleration.",
     image:
       "/scientist-working-on-neural-network-brain-programming-4254680-3535107.png",
-    github: "https://github.com/xavajk/ner",
-    link: "https://eval.ai/web/challenges/challenge-page/2014/overview",
+    github: "https://github.com/xavajk/homework-annotator",
+    link: "https://github.com/xavajk/homework-annotator",
   },
   {
     name: "Microgrid Intelligent Agents: Senior Design Project",
     description:
       "Developing a software implementation for autonomous agents in a microgrid environment which regulate power generation \
-      and consumption. Initial research involves understanding the nature of agent communication (bartering, deal-making, negotiation). \
+      and consumption. The project involves understanding the nature of agent communication (bartering, deal-making, negotiation). \
       Research is also being conducted on microgrid systems themselves, PV cells, wind, battery, generators, and loads, in order to \
-      better understand how agents can achieve autonomous operation.",
+      better understand how agents can achieve autonomous operation. The agents use deterministic interaction protocols along with forecasting \
+      models and reinforcement learning to minimize operational cost to the user.",
     image: "/solar-energy-plant-5097002-4268357.png",
-    github: "https://github.com/xavajk/microgrid-agents",
-    link: "https://github.com/xavajk/microgrid-agents",
+    github: "https://github.com/xavajk/auto-grid",
+    link: "https://github.com/xavajk/auto-grid",
   },
   {
     name: "SpeakNotes",

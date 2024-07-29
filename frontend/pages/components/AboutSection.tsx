@@ -6,14 +6,12 @@ const skills = [
   { skill: "C" },
   { skill: "C++" },
   { skill: "TensorFlow" },
-  { skill: "ROS" },
+  { skill: "LLMs" },
   { skill: "Computer Vision" },
   { skill: "Sequence Models" },
   { skill: "NLP" },
-  { skill: "OpenCV" },
+  { skill: "LangChain" },
   { skill: "Arduino" },
-  { skill: "MongoDB" },
-  { skill: "Node.js" },
   { skill: "Git" },
 ];
 
@@ -40,14 +38,14 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I am currently a Senior at Santa Clara University, working towards
-              a BS in
+              I am currently a graduate student at Santa Clara University. I
+              just completed my BS in
               <span className="font-bold">
                 {" Computer Science and Engineering"}
               </span>
-              . Additionally, I am enrolled in the
+              . I am enrolled in the
               <span className="font-bold">{" Robotics and Automation "}</span>
-              Masters program which I am set to complete by Summer 2025.
+              Masters program which I am set to complete by end-of-year 2025.
             </p>
             <br />
             <p>
